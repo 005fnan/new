@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(lema.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       .login{  
+        display: flex;    
+        width: 300px;
+        position: absolute;
+        left: 50%;
+         top: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(211, 211, 211, 0.266);
+        border-radius: 10px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        
+           
+        }
+        button{color: white;
+            background-color: rgb(63, 99, 9);
+            border: none; 
+            border-radius: 5px;
+            width: 170px;
+            padding: 10px 0;
+            
+        }
+        input{
+            padding: 10px 0;
+            
+        }
+        .login div{
+       margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <div><h1>Account login</h1></div>
+        <div><input type="text" placeholder="User name"></div>
+        <div><input type="password" placeholder="password"></div>
+        <div><button type="submit">LOGIN</button></div>
+        <div><input type="checkbox">remember me <span><a href="#a">forgot password?</a></span></div>
+    </div>
+    
+</body>
+</html>
